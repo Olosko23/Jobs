@@ -4,7 +4,7 @@ import {BsFacebook} from 'react-icons/bs';
 
 const Footer = () => {
   return (
-    <div className="footer p-[5rem] mb-4 bg-blueColor rounded-[10px] gap-[8] grid grid-cols-5 m-auto items-center justify-center">
+    <div className="footer p-[5rem] mb-4 bg-blueColor rounded-[10px] gap-4 flex flex-col md:flex-row m-auto items-center justify-center">
       <div>
         <div className="logoDiv">
           <h1 className="logo text-white text-[25px]">
@@ -15,6 +15,7 @@ const Footer = () => {
           We always make our seekers and companies find the best jobs and employers find the best candidate
         </p>
       </div>
+      <div className="flex md:grid-cols-3 gap-10 mb-3">
       <div className="grid">
           <span className="divTitle text-[18px] font-semibold pb-[1.5rem] text-white">Company
           </span>
@@ -44,6 +45,7 @@ const Footer = () => {
               <li className="text-white opacity-[.7] hover:opacity-[1]">Req. Demo</li>
               <li className="text-white opacity-[.7] hover:opacity-[1]">Careers</li>
           </div>
+      </div>
       </div>
       <div className="grid">
         <span className="divTitle text-[18px] font-semibold pb-[1.5rem] text-white">
