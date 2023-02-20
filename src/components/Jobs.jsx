@@ -1,5 +1,6 @@
 import React from 'react'
 import {BiTimeFive} from 'react-icons/bi';
+import web1 from '../assets/spotify-1-logo-svgrepo-com.svg';
 
 const Jobs = () => {
   return (
@@ -18,7 +19,7 @@ const Jobs = () => {
             Lorem ipsum, dolor sit amet consectetur adipisicing wlit. Corrupti, laboriosam!
           </p>
           <div className="company flex items-center gap-2">
-            <img src='' alt="Company Logo" className="w-[10%]" />
+            <img src={web1} alt="Company Logo" className="w-[10%]" />
             <span className="text-[14px] py-[1rem] block group-hover:text-white">Novac Linus Co.</span>
           </div>
           <button className="border-[2px] rounded-[10px] block p-[10px] w-full text-[14px] font-semibold text-textColor hover:bg-white group-hover/item:text-textColor group-hover:text-white">Apply Now</button>
