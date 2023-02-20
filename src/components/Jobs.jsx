@@ -1,6 +1,11 @@
 import React from 'react'
 import {BiTimeFive} from 'react-icons/bi';
 import web1 from '../assets/spotify-1-logo-svgrepo-com.svg';
+import web2 from '../assets/airbnb-2-logo-svgrepo-com.svg';
+import web3 from '../assets/bmw-logo-svgrepo-com.svg';
+import web4 from '../assets/microsoft-logo-svgrepo-com.svg';
+import web5 from '../assets/slack-logo-svgrepo-com.svg';
+import web6 from '../assets/twitter-3-logo-svgrepo-com.svg';
 
 const Jobs = () => {
   return (
@@ -37,7 +42,7 @@ const Jobs = () => {
             Lorem ipsum, dolor sit amet consectetur adipisicing wlit. Corrupti, laboriosam!
           </p>
           <div className="company flex items-center gap-2">
-            <img src='' alt="Company Logo" className="w-[10%]" />
+            <img src={web2} alt="Company Logo" className="w-[10%]" />
             <span className="text-[14px] py-[1rem] block group-hover:text-white">Novac Linus Co.</span>
           </div>
           <button className="border-[2px] rounded-[10px] block p-[10px] w-full text-[14px] font-semibold text-textColor hover:bg-white group-hover/item:text-textColor group-hover:text-white">Apply Now</button>
@@ -55,7 +60,7 @@ const Jobs = () => {
             Lorem ipsum, dolor sit amet consectetur adipisicing wlit. Corrupti, laboriosam!
           </p>
           <div className="company flex items-center gap-2">
-            <img src='' alt="Company Logo" className="w-[10%]" />
+            <img src={web3} alt="Company Logo" className="w-[10%]" />
             <span className="text-[14px] py-[1rem] block group-hover:text-white">Novac Linus Co.</span>
           </div>
           <button className="border-[2px] rounded-[10px] block p-[10px] w-full text-[14px] font-semibold text-textColor hover:bg-white group-hover/item:text-textColor group-hover:text-white">Apply Now</button>
@@ -73,7 +78,7 @@ const Jobs = () => {
             Lorem ipsum, dolor sit amet consectetur adipisicing wlit. Corrupti, laboriosam!
           </p>
           <div className="company flex items-center gap-2">
-            <img src='' alt="Company Logo" className="w-[10%]" />
+            <img src={web4} alt="Company Logo" className="w-[10%]" />
             <span className="text-[14px] py-[1rem] block group-hover:text-white">Novac Linus Co.</span>
           </div>
           <button className="border-[2px] rounded-[10px] block p-[10px] w-full text-[14px] font-semibold text-textColor hover:bg-white group-hover/item:text-textColor group-hover:text-white">Apply Now</button>
@@ -91,7 +96,7 @@ const Jobs = () => {
             Lorem ipsum, dolor sit amet consectetur adipisicing wlit. Corrupti, laboriosam!
           </p>
           <div className="company flex items-center gap-2">
-            <img src='' alt="Company Logo" className="w-[10%]" />
+            <img src={web5} alt="Company Logo" className="w-[10%]" />
             <span className="text-[14px] py-[1rem] block group-hover:text-white">Novac Linus Co.</span>
           </div>
           <button className="border-[2px] rounded-[10px] block p-[10px] w-full text-[14px] font-semibold text-textColor hover:bg-white group-hover/item:text-textColor group-hover:text-white">Apply Now</button>
@@ -109,7 +114,7 @@ const Jobs = () => {
             Lorem ipsum, dolor sit amet consectetur adipisicing wlit. Corrupti, laboriosam!
           </p>
           <div className="company flex items-center gap-2">
-            <img src='' alt="Company Logo" className="w-[10%]" />
+            <img src={web6} alt="Company Logo" className="w-[10%]" />
             <span className="text-[14px] py-[1rem] block group-hover:text-white">Novac Linus Co.</span>
           </div>
           <button className="border-[2px] rounded-[10px] block p-[10px] w-full text-[14px] font-semibold text-textColor hover:bg-white group-hover/item:text-textColor group-hover:text-white">Apply Now</button>
