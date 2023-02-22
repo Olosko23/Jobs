@@ -20,7 +20,7 @@ const Navbar = () => {
         <li className="menuList text-[#6f6f6f] hover:text-blueColor">Login</li>
         <li className="menuList text-[#6f6f6f] hover:text-blueColor">Register</li>
       </div>
-      <div onClick={() => setNav(!nav)} className="pr-2 z-10 cursor-pointer flex nd:hidden text-blueColor">
+      <div onClick={() => setNav(!nav)} className="pr-2 z-10 cursor-pointer flex md:hidden text-blueColor">
         {nav ? <FaTimes /> : <FaBars />}
       </div>
       {nav && (
