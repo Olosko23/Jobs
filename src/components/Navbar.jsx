@@ -24,7 +24,7 @@ const Navbar = () => {
         {nav ? <FaTimes /> : <FaBars />}
       </div>
       {nav && (
-        <div className="flex flex-col justify-center items-center absolute top-0 right-0 gap-8">
+        <div className="flex w-full h-screen flex-col justify-center bg-blue-200 items-center top-0 right-0 gap-2">
         <li className="menuList text-[#6f6f6f] px-4 cursor-pointer capitalize py-6 text-xl bg-white opacity-50 hover:text-blueColor">Jobs</li>
         <li className="menuList text-[#6f6f6f] px-4 cursor-pointer capitalize py-6 text-xl bg-white opacity-50 hover:text-blueColor">Companies</li>
         <li className="menuList text-[#6f6f6f] px-4 cursor-pointer capitalize py-6 text-xl bg-white opacity-50 hover:text-blueColor">About</li>
