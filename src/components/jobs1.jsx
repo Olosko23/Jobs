@@ -24,7 +24,7 @@ const Jobs = () => {
             if(componentMounted){
                 setData(await response.clone().json());
                 setFilter(await response.json());
-                setLoading(false);
+                //setLoading(false);
                 console.log(filter) 
             }
             return () => {
