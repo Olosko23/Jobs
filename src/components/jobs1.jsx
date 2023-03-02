@@ -39,16 +39,14 @@ const Jobs = () => {
             <div>Loading.. Please Wait</div>
         )
     };
-    const showJobs = () =>{
-        return(
-          <div>
-            Jobs
-          </div>
-        )
-    }
+
   return (
     <div>
-      { loading ? <Loading />: <showJobs /> }
+      { loading ? <Loading />: (
+        <div>
+            Jobs are here
+        </div>
+      ) }
     </div>
   )
 }
