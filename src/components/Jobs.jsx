@@ -14,7 +14,7 @@ const Jobs = () => {
       title: "Web Developer",
       country:"Canada",
       time:"Now",
-      image: {web1},
+      image: web1,
       company: "Nocav Inc"
 
     },
@@ -23,7 +23,7 @@ const Jobs = () => {
       title: "UI/UX Developer",
       country:"Kenya",
       time:"2hrs",
-      image: {web2},
+      image: web2,
       company: "Gateway Limited"
 
     },
@@ -32,7 +32,7 @@ const Jobs = () => {
       title: "QA Engineer",
       country:"Finland",
       time:"1 day",
-      image: {web3},
+      image: web3,
       company: "Indian Corp"
 
     },
@@ -41,7 +41,7 @@ const Jobs = () => {
       title: "Fronted Developer - React",
       country:"South Africa",
       time:"1 day",
-      image: {web4},
+      image: web4,
       company: "Martizburg Orient Enterprise"
 
     },
@@ -50,7 +50,7 @@ const Jobs = () => {
       title: "SR Engineer/ DevOps",
       country:"Estonia",
       time:"12 hours",
-      image: {web5},
+      image: web5,
       company: "Nokia Inc"
 
     },
@@ -59,7 +59,7 @@ const Jobs = () => {
       title: "Senior Fullstack Developer",
       country:"Uruguay",
       time:"2 hours",
-      image: {web6},
+      image: web6,
       company: "Messioan Enterprise"
 
     },
