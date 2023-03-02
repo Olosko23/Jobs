@@ -51,7 +51,7 @@ const Value = () => {
           </p>
         </div>
       </div>
-      <div className="card mt-[2rem] flex justify-between md:flex-col bg-blueColor p-[5rem] rounded-[10px]">
+      <div className="card mt-[2rem] flex flex-col gap-2 justify-between md:flex-col bg-blueColor p-[5rem] rounded-[10px]">
         <div>
           <h1 className="text-blueColor text-[30px] font-bold">Ready to switch careers</h1>
           <h2 className="text-textColor text-[25px] font-bold">Let's Get Started</h2>
