@@ -1,15 +1,15 @@
 import React from 'react'
 
 const Job = () => {
-  return (
+  return ( 
     <div className="flex flex-col gap-2 px-2 py-2">
-      <div>
+      <div className="flex flex-col gap-1">
         <h2>Employer Name</h2>
         <h2>Employer logo</h2>
         <h2>Employer website</h2>
         <h2>Employer company type</h2>
       </div>
-      <div>
+      <div className="flex flex-col gap-1">
         <h2>Job Details</h2>
         <h6>Publisher</h6>
         <h6>Emplpyment Type</h6>
@@ -28,8 +28,8 @@ const Job = () => {
         <h6>Salary</h6>
         <h6>Job Highlights</h6>
       </div>
-      <div>Google Link</div>
-      <div>Apply</div>
+      <div className="flex flex-col gap-1">Google Link</div>
+      <div className="flex flex-col gap-1">Apply</div>
     </div>
   )
 }
