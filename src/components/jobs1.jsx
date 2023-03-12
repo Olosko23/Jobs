@@ -17,7 +17,7 @@ const Jobs = () => {
   };
 
   const url =
-    ("https://jsearch.p.rapidapi.com/serach?query=Python%20developer%2C%20USA&num_pages=2",
+    ("https://jsearch.p.rapidapi.com/search?query=Python%20developer%2C%20USA&num_pages=2",
     options);
 
   useEffect(() => {
@@ -37,18 +37,27 @@ const Jobs = () => {
     getJobs();
   }, []);
 
-  const Loading = () => {
-    return <div>Loading... Please Wait</div>;
-  };
-
   return (
     <div>
       {loading ? (
-        <Loading />
+        <div>
+          Loading... Please Wait
+          <p>Skeleton to be initiated here</p>
+        </div>
       ) : (
         <div>
           {data.map(
-            ({ id, employer, logo, title, desc, remote, type, apply, postedAt }) => {
+            ({
+              id,
+              employer,
+              logo,
+              title,
+              desc,
+              remote,
+              type,
+              apply,
+              postedAt,
+            }) => {
               return (
                 <div
                   key={id}
@@ -77,7 +86,7 @@ const Jobs = () => {
                     </span>
                   </div>
                   <button className="border-[2px] rounded-[10px] block p-[10px] w-full text-[14px] font-semibold text-textColor hover:bg-white group-hover/item:text-textColor group-hover:text-white">
-                    <Link to='/jobs/:id'>Apply Here</Link>
+                    <Link to="/jobs/:id">Apply Here</Link>
                   </button>
                 </div>
               );
