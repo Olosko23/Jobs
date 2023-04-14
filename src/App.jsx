@@ -14,7 +14,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Jobs />} />
-          <Route path='/jobs/:id' element={<Job />} />
+          {/*<Route path='/jobs/:id' element={<Job />} /> */}
         </Routes>
       </BrowserRouter>
       <Value />
