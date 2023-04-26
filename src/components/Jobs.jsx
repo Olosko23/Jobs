@@ -82,7 +82,7 @@ const Jobs = () => {
 
               <p className="text-[13px] text-[#959595] pt-[20px] border-t-[2px] mt-[20px] group-hover:text-white">
                 Lorem ipsum, dolor sit amet consectetur adipisicing wlit.
-                Corrupti, laboriosam!
+                Corrupti, laboriosam!.
               </p>
               <div className="company flex items-center gap-2">
                 <img src={image} alt="Company Logo" className="w-[10%]" />
