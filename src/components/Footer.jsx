@@ -66,7 +66,7 @@ const Footer = () => {
           </h1>
         </div>
         <p className="text-white pb-[13px] opacity-70 leading-7">
-          We always make our seekers and companies find the best jobs and employers find the best candidate
+          We always make our seekers and companies find the best jobs and employers find the best candidate.
         </p>
       </div>
       <div className="flex md:grid-cols-3 gap-10 mb-3">
